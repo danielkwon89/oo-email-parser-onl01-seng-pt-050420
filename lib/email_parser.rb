@@ -7,6 +7,6 @@ class EmailAddressParser
   
   attr_accessor
   
-  def parse
+  def parse(string)
   end
 end
