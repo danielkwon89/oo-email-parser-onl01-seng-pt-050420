@@ -6,6 +6,7 @@
 class EmailAddressParser
 
   def parse(email_string)
+    email_string.split(", ").map{|i| i.split(" ")}.flatten
   end
   
 end
